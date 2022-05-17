@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="SongName" layoutX="10.0" layoutY="20.0" prefHeight="24.0" prefWidth="160.0" text="Song Name" />
+      <Label fx:id="SongName1" layoutX="10.0" layoutY="40.0" prefHeight="18.0" prefWidth="160.0" text="Author" textFill="#0000007e">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <ProgressBar layoutX="90.0" layoutY="40.0" prefHeight="6.0" prefWidth="300.0" progress="0.0" />
+      <Separator layoutY="70.0" prefHeight="1.0" prefWidth="400.0" />
+      <Label layoutX="10.0" layoutY="80.0" text="Треки" />
+      <Separator layoutY="330.0" prefHeight="1.0" prefWidth="400.0" />
+      <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="100.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Downloads/play%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="25.0" layoutX="40.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Downloads/previous.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="25.0" layoutX="160.0" layoutY="347.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Downloads/previous.png" />
+         </image>
+      </ImageView>
+      <Slider layoutX="247.0" layoutY="354.0" majorTickUnit="20.0" prefHeight="16.0" prefWidth="114.0" value="30.0" />
+      <ListView layoutX="10.0" layoutY="110.0" prefHeight="200.0" prefWidth="380.0" />
+      <ImageView fitHeight="150.0" fitWidth="20.0" layoutX="362.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Downloads/volume%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="20.0" layoutX="225.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Downloads/volume.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
